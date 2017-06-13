@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">Book A Book</string>
+
+    <string name="cover_image">cover image</string>
+
+    <string name="placeholder_title">Title</string>
+
+    <string name="placeholder_author">Author</string>
+
+    <string name="search_title">Search</string>
+
+    <string name="search_hint">enter title/author keyword</string>
+
+    <string name="no_internet_connection">no Internet connection</string>
+
+    <string name="enter_search_query">enter search parameters</string>
+
+    <string name="no_matches_found">no matches found</string>
+
+    <string name="can_not_complete_search">cannot complete search</string>
+
+</resources>

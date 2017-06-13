@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="image_width">75dp</dimen>
+
+    <dimen name="image_height">116dp</dimen>
+
+    <dimen name="start_margin">16dp</dimen>
+
+    <dimen name="title_size">20sp</dimen>
+
+    <dimen name="author_size">18sp</dimen>
+
+    <dimen name="books_edit_text_padding">20dp</dimen>
+
+</resources>

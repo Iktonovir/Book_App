@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linear_layout">
+
+    <ImageView
+        android:id="@+id/book_picture"
+        android:src="@drawable/book_image"
+        android:contentDescription="@string/cover_image"
+        style="@style/image_view"/>
+
+    <LinearLayout
+        style="@style/sub_linear_layout">
+
+        <TextView
+            android:id="@+id/title"
+            tools:text="@string/placeholder_title"
+            style="@style/book_info" />
+
+        <TextView
+            android:id="@+id/author"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="@dimen/author_size"
+            tools:text="@string/placeholder_author"
+            style="@style/book_info" />
+
+    </LinearLayout>
+
+</LinearLayout>

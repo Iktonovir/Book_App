@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BooksActivity"
+    style="@style/books_relative_layout">
+
+    <!-- Layout for a list of titles and their authors -->
+
+    <ListView
+        android:id="@+id/bookList"
+        android:layout_below="@+id/submit"
+        style="@style/books_list_view"/>
+
+    <EditText
+        android:id="@+id/search"
+        android:hint="@string/search_hint"
+        style="@style/books_edit_text"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:text="@string/search_title"
+        android:layout_below="@+id/search"
+        style="@style/books_button" />
+
+    <TextView
+        android:id="@+id/empty_view"
+        style="@style/books_empty_view"/>
+
+    <ProgressBar
+        android:id="@+id/loading_spinner"
+        style="@style/books_empty_view"/>
+
+</RelativeLayout>
